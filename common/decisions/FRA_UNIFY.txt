@@ -1,5 +1,8 @@
 form_france_category = {
  PRS_FORM_FRANCE = {
+	ai_will_do = {
+		factor = 1
+	}
 	visible= {
 		original_tag = PRS
 	}

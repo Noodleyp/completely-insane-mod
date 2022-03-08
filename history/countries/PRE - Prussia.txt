@@ -1,5 +1,5 @@
 ﻿capital = 763
-
+oob = "PRE_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -166,16 +166,16 @@ create_country_leader = {
 	}
 }
 
-#create_country_leader = {
-#	name = "Dennis Fredauer"
-#	desc = ""
-#	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#	}
-#}
-#
+create_country_leader = {
+	name = "Heinrich Himmler"
+	desc = ""
+	picture = "gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
+}
+
 
 #create_country_leader = {
 #	name = "Otto Wels"
@@ -188,18 +188,18 @@ create_country_leader = {
 #		union_man
 #	}
 #}
-#
-#create_country_leader = {
-#	name = "Ernst Thälmann"
-#	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Portrait_Germany_Adolf_Hitler.dds"
-#	expire = "1956.1.1"
-#	ideology = stalinism
-#	traits = {
-#		assassination_survivor
-#		stalins_puppet
-#		political_prisoner
-#	}
-#}
+
+create_country_leader = {
+	name = "Ernst Thälmann"
+	desc = "POLITICS_ERNST_THALMANN_DESC"
+	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	expire = "1956.1.1"
+	ideology = stalinism
+	traits = {
+		assassination_survivor
+		stalins_puppet
+		political_prisoner
+	}
+}
 
 

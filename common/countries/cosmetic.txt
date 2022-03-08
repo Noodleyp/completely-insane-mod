@@ -808,3 +808,31 @@ FEA_AFS = {
 	color = rgb { 32 94 23 }
 	color_ui = rgb { 128 0 128 }
 }
+FEA_AFS = {
+	color = rgb { 32 94 23 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_POL = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_FRA = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_DEN = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_UKR = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_OST = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_BLT = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}

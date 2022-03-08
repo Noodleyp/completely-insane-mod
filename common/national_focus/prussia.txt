@@ -44,6 +44,7 @@
 				remove_state_core = 762
 			}
 			hidden_effect = {
+				
 				transfer_state = 86
 				transfer_state = 807
 				transfer_state = 85
@@ -114,63 +115,39 @@
 		completion_reward = {
 			add_political_power = -10
 			declare_war_on = {
-					target = DDR
-					type = annex_everything
-				}
-			PRE = {	
-				add_war_support = 0.2
-				division_template = {
-					name = "Preußisch Armee"
-					division_names_group = USA_INF_01
-					priority = 0
-					locked = no
-					template_counter = 0
-					regiments = {
-							infantry = { x = 0 y = 0 }
-							infantry = { x = 0 y = 1 }
-							infantry = { x = 0 y = 2 }
-							infantry = { x = 0 y = 3 }
-						}
-					support = { 
-						military_police = { x = 0 y = 0 }
-					}
-				}
-				86 = {
-					create_unit = {
-						division = "name = \"Preußisch armee\" division_template = \"Preußisch Armee\" start_experience_factor = 0.4"
-						owner = PRE
-						count = 10
-						allow_spawning_on_enemy_provs = yes
-					}
-				}
-			}
-			DDR = {
-				add_war_support = 0.2
-				division_template = {
-					name = "Brandenburger Armee"
-					division_names_group = USA_INF_01
-					priority = 0
-					locked = no
-					template_counter = 0
-					regiments = {
-							infantry = { x = 0 y = 0 }
-							infantry = { x = 0 y = 1 }
-							infantry = { x = 0 y = 2 }
-							infantry = { x = 0 y = 3 }
-						}
-					support = { 
-						military_police = { x = 0 y = 0 }
-					}
-				}
-				64 = {
-					create_unit = {
-						division = "name = \"Militar der Brandenburg\" division_template = \"Brandenburger Armee\" start_experience_factor = 0.4"
-						owner = DDR
-						count = 6
-						allow_spawning_on_enemy_provs = yes
-					}
-				}
+				target = DDR
+				type = annex_everything
 			}
 		}
 	}
-}
+	
+#	focus = {
+#		id = PRE_PUTSCH
+#		icon = GFX_goal_support_fascism
+#		x = 12
+#		y = 3
+#		cost = 3
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#		prerequisite = {
+#			focus = PRE_INVADEBRANDENBURG
+#		}
+#	
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#		completion_reward = {
+#				set_politics = {
+#				ruling_party = fascist
+#				elections_allowed = no
+#				last_election = "1936.1.1"
+#				election_frequency = 48
+#			}
+#			start_civil_war = {
+#				ideology = neutrality
+#			}
+#		}
+#	}
+#}

@@ -11,6 +11,21 @@ propaganda_efforts = {
 
 	}
 }
+form_france_category = {
+	icon = generic_propaganda
+
+	visible = {
+
+	}
+}
+PRE_commisariats = {
+	icon = generic_propaganda
+
+	visible = {
+	original_tag = PRE
+	has_government = fascism
+	}
+}
 MTG_naval_treaties = {
 	picture = GFX_decision_cat_picture_naval_treaties
 	allowed = {
