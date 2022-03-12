@@ -1,5 +1,6 @@
 ﻿l_english:
-# Socialists
+
+#Socialists
  SRE: "Socialist Republic of England"
  SRE_DEF: "the Socialist Republic of England"
  SRE_ADJ: "Socialist English"
@@ -16,7 +17,7 @@
  SIR_DEF: "the Democratic Republic of Ireland"
  SIR_ADJ: "Southern Irish"
 
-# Loyalists
+#Loyalists
  REM: "Realm of the Territories of the English Monarch"
  REM_DEF: "the Realm of the Territories of the English Monarch"
  REM_ADJ: "Royal English"
@@ -48,3 +49,7 @@
  CRN: "Gwlas Kernow"
  CRN_DEF: "the Gwlas Kernow"
  CRN_ADJ: "Cornish"
+ 
+ 
+ #OTHER BRIT STUFF
+ autonomy_celtic_land:0 "Celtic Land"

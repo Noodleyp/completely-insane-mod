@@ -836,3 +836,39 @@ PRE_BLT = {
 	color = rgb { 36 49 133 }
 	color_ui = rgb { 128 0 128 }
 }
+PRE_SLO = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_PBM = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_KPT = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_SER = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_CRO = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_MAZ = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_ANA = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_BEL = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
+PRE_HOL = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}

@@ -127,7 +127,9 @@
 		x = 10
 		y = 2
 		cost = 3
-
+		bypass = {
+			has_government = fascism
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -265,6 +267,30 @@
 			declare_war_on = {
 				target = CZE
 				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = PRE_ANSCHLUSS
+		icon = GFX_goal_support_fascism
+		x = 10
+		y = 7
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = PRE_CZECHNOSLOVAKIA
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 100
+			annex_country = {
+				target = AUS
+				transfer_troops = yes
 			}
 		}
 	}
