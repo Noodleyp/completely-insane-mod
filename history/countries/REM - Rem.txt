@@ -1,4 +1,4 @@
-﻿capital = 133
+﻿capital = 338
 
 #oob = ""
 
@@ -30,9 +30,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 93
-	fascism = 3
-	communism = 4
+	neutrality = 100
 }
 
 #create_country_leader = {
@@ -45,3 +43,7 @@ set_popularities = {
 #		#
 #	}
 #}
+
+create_faction = "Loyalist Alliance"
+add_to_faction = SCO
+

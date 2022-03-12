@@ -855,3 +855,39 @@ RDN = {
 	color = rgb { 71 172 222 }
 	color_ui = rgb { 133 46 40 }
 }
+SIR = {
+	color = rgb { 128 42 60 }
+	color_ui = rgb { 128 42 60 }
+}
+CRN = {
+	color = rgb { 66 57 31 }
+	color_ui = rgb { 66 57 31 }
+}
+NTH = {
+	color = rgb { 127 35 35 }
+	color_ui = rgb { 127 35 35 }
+}
+REM = {
+	color = rgb { 74 52 76 }
+	color_ui = rgb { 74 52 76 }
+}
+SRE = {
+	color = rgb { 220 20 60 }
+	color_ui = rgb { 220 20 60 }
+}
+SCO = {
+	color = rgb { 61 117 153 }
+	color_ui = rgb { 61 117 153 }
+}
+ENZ = {
+	color = rgb { 58 0 0 }
+	color_ui = rgb { 58 0 0 }
+}
+FTB = {
+	color = rgb { 35 51 255 }
+	color_ui = rgb { 35 51 255 }
+}
+NIR = {
+	color = rgb { 42 81 73 }
+	color_ui = rgb { 42 81 73 }
+}
