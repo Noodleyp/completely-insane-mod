@@ -118,36 +118,154 @@
 				target = DDR
 				type = annex_everything
 			}
+			add_civil_war_target = DDR
 		}
 	}
-	
-#	focus = {
-#		id = PRE_PUTSCH
-#		icon = GFX_goal_support_fascism
-#		x = 12
-#		y = 3
-#		cost = 3
-#
-#		ai_will_do = {
-#			factor = 1
-#		}
-#		prerequisite = {
-#			focus = PRE_INVADEBRANDENBURG
-#		}
-#	
-#		cancel_if_invalid = yes
-#		continue_if_invalid = no
-#		available_if_capitulated = no
-#		completion_reward = {
-#				set_politics = {
-#				ruling_party = fascist
-#				elections_allowed = no
-#				last_election = "1936.1.1"
-#				election_frequency = 48
-#			}
-#			start_civil_war = {
-#				ideology = neutrality
-#			}
-#		}
-#	}
-#}
+	focus = {
+		id = PRE_COUP
+		icon = GFX_goal_support_fascism
+		x = 10
+		y = 2
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_war = no
+		}
+		prerequisite = {
+			focus = PRE_INVADEBRANDENBURG
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+				set_capital = {
+					state = 64
+					remember_old_capital = no
+				}
+			start_civil_war = {			
+				
+				ruling_party = fascism
+				ideology = neutrality
+				size = 0.2
+				only_own_territory = no
+				capital = 282
+				states = { 
+					86 66 67 762 807 5 763 188 85
+				}
+				keep_political_leader = no
+				keep_political_party_members = no
+			}
+		}
+	}
+	focus = {
+		id = PRE_INVADEBAYERN
+		icon = GFX_goal_support_fascism
+		x = 10
+		y = 3
+		cost = 3
+		available = {
+			has_war = no
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = PRE_COUP
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = -10
+			declare_war_on = {
+				target = BAY
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = PRE_PROCLAIMARYANEMPIRE
+		icon = GFX_goal_support_fascism
+		x = 10
+		y = 4
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = PRE_INVADEBAYERN
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			set_cosmetic_tag = ARYAN_EMP
+			add_political_power = 100
+			declare_war_on = {
+				target = SHL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = WUR
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = PRE_POLISHSCUM
+		icon = GFX_goal_support_fascism
+		x = 10
+		y = 5
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = PRE_PROCLAIMARYANEMPIRE
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 100
+			declare_war_on = {
+				target = POL
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = PRE_CZECHNOSLOVAKIA
+		icon = GFX_goal_support_fascism
+		x = 10
+		y = 6
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = PRE_POLISHSCUM
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			add_political_power = 100
+			declare_war_on = {
+				target = CZE
+				type = annex_everything
+			}
+		}
+	}
+}
