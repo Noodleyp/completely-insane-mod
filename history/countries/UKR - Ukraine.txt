@@ -97,7 +97,7 @@ create_country_leader = {
 		
 	}
 }
-
+##anarchia mama
 create_country_leader = {
 	name = "Ukrainian Anarchists"
 	desc = ""
