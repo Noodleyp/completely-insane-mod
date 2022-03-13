@@ -891,3 +891,7 @@ NIR = {
 	color = rgb { 42 81 73 }
 	color_ui = rgb { 42 81 73 }
 }
+LOU = {
+	color = rgb { 23 50 145 }
+	color_ui = rgb { 23 50 145 }
+}
