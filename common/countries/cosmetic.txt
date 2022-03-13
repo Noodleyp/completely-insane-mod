@@ -872,3 +872,7 @@ PRE_HOL = {
 	color = rgb { 36 49 133 }
 	color_ui = rgb { 128 0 128 }
 }
+PRE_KAU = {
+	color = rgb { 36 49 133 }
+	color_ui = rgb { 128 0 128 }
+}
