@@ -369,8 +369,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 34 36 43 }
+	color_ui = rgb { 34 36 43 }	
 }
 
 AZR = {

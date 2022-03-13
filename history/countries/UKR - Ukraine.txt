@@ -73,10 +73,17 @@ if = {
 		basic_torpedo = 1
 	}
 }
+set_politics = {
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 
 set_popularities = {
-	democratic = 20
-	fascism = 30
+	democratic = 18
+	neutrality = 32
+	fascism = 0
 	communism = 50
 }
 
@@ -92,11 +99,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Nikita Sergeyevich Khrushchyov"
+	name = "Nestor Makhno"
 	desc = ""
-	picture = GFX_portrait_Nikita_Sergeyevich_Khrushchyov
+	picture = "gfx/leaders/UKR/Makhno.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = anarchist_communism
 	traits = {
 		
 	}
