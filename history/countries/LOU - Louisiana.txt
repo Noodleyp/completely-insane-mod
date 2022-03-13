@@ -216,15 +216,15 @@ recruit_character = BRI_awt
 	}
 }
 set_politics = {
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
+	democratic = 50
 	fascism = 0
-	communism = 50
+	communism = 25
 	neutrality = 25
 }
 
@@ -250,8 +250,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Maurice Duhamel"
-	picture = GFX_portrait_Maurice_Duhamel
+	name = "Emmanuel Macron"
+	picture = "gfx/leaders/LOU/macron.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = conservatism
 }
