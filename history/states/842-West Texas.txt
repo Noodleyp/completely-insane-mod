@@ -1,0 +1,14 @@
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		1915 1998 3875 4955 8064 9773 12301 12848 12875 12893 
+	}
+	manpower=435364
+	history = {
+		owner = CTX
+		add_core_of = CTX
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

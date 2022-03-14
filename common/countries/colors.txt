@@ -903,3 +903,11 @@ MXS = {
 	color = rgb { 35 99 49 }
 	color_ui = rgb { 35 99 49 }
 }
+NTX = {
+	color = rgb { 17 20 64 }
+	color_ui = rgb { 17 20 64 }
+}
+CTX = {
+	color = rgb { 107 27 27 }
+	color_ui = rgb { 107 27 27 }
+}
