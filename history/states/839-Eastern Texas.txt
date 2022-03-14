@@ -1,0 +1,14 @@
+state={
+	id=839
+	name="STATE_839"
+	provinces={
+		805 1500 2082 3960 4577 7628 10337 10504 10778 10861 12486 
+	}
+	history = {
+		owner = RTX
+		add_core_of = RTX
+	}
+	manpower=6346432
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

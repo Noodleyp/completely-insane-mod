@@ -895,3 +895,11 @@ LOU = {
 	color = rgb { 23 50 145 }
 	color_ui = rgb { 23 50 145 }
 }
+RTX = {
+	color = rgb { 35 41 99 }
+	color_ui = rgb { 35 41 99 }
+}
+MXS = {
+	color = rgb { 35 99 49 }
+	color_ui = rgb { 35 99 49 }
+}
