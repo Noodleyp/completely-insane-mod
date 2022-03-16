@@ -122,10 +122,9 @@ bookmarks = {
 				SOV_reconvene_the_zemsky_sobor
 			}	
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { NOT = { has_dlc = "No Step Back" } }
+		"MSK"={
+			history = "MSK_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
 				trotskyite_plot_nsb
 				SOV_second_five_year_plan_fake_1936_ns
