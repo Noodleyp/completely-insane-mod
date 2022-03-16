@@ -915,3 +915,27 @@ GAZ = {
 	color = rgb { 70 87 99 }
 	color_ui = rgb { 70 87 99 }
 }
+NTX = {
+	color = rgb { 28 49 89 }
+	color_ui = rgb { 28 49 89 }
+}
+MXS = {
+	color = rgb { 16 79 30 }
+	color_ui = rgb { 16 79 30 }
+}
+RTX = {
+	color = rgb { 41 74 145 }
+	color_ui = rgb { 41 74 145 }
+}
+LOU = {
+	color = rgb { 16 30 107 }
+	color_ui = rgb { 16 30 107 }
+}
+CTX = {
+	color = rgb { 140 20 32 }
+	color_ui = rgb { 140 20 32 }
+}
+OKL = {
+	color = rgb { 132 135 34 }
+	color_ui = rgb { 132 135 34 }
+}

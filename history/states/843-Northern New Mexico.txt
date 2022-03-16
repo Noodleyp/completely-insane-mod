@@ -1,11 +1,10 @@
 state={
-	id=838
-	name="STATE_838"
+	id=843
+	name="STATE_843"
 	provinces={
-		4919 7762 9822 10702 11743 12624 
+		2102 
 	}
-	manpower=553 
-#double everyone in oklahoma so OP
+	manpower=4353
 	history = {
 		owner = OKL
 		add_core_of = OKL
