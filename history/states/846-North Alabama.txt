@@ -1,0 +1,14 @@
+state={
+	id=846
+	name="STATE_846"
+	provinces={
+		4594 5059 12803 
+	}
+	history = {
+		owner = NCF
+		add_core_of = NCF
+	}
+	manpower=53253
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

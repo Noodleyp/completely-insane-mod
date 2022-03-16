@@ -1,0 +1,14 @@
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		1547 3994 7118 7202 10029 10394 10437 10465 11975 
+	}
+	history = {
+		owner = NAF
+		add_core_of = NAF
+	}
+	manpower=55900000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
