@@ -939,3 +939,27 @@ OKL = {
 	color = rgb { 132 135 34 }
 	color_ui = rgb { 132 135 34 }
 }
+NAF = {
+	color = rgb { 18 89 18 }
+	color_ui = rgb { 18 89 18 }
+}
+NCF = {
+	color = rgb { 61 61 61 }
+	color_ui = rgb { 61 61 61 }
+}
+FSA = {
+	color = rgb { 125 125 125 }
+	color_ui = rgb { 125 125 125 }
+}
+DST = {
+	color = rgb { 100 100 100 }
+	color_ui = rgb { 100 100 100 }
+}
+AMC = {
+	color = rgb { 9 6 79 }
+	color_ui = rgb { 9 6 79 }
+}
+APL = {
+	color = rgb { 11 79 13 }
+	color_ui = rgb { 11 79 13 }
+}

@@ -4,7 +4,7 @@ state={
 	name="STATE_364"
 
 	history={
-		owner = USA
+		owner = CRL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -14,7 +14,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = CRL
 		victory_points = {
 			7202 1 
 		}

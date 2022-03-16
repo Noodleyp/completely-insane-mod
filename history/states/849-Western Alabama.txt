@@ -1,13 +1,14 @@
 state={
-	id=837
-	name="STATE_837"
+	id=849
+	name="STATE_849"
 	provinces={
-		1646 4444 4567 4597 4625 7586 10477 
+		1587 4622 4756 10192 
 	}
-	manpower= 646446
+	manpower=453454
 	history = {
 		owner = AMC
 		add_core_of = AMC
+		add_core_of = DST
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

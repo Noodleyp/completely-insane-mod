@@ -4,7 +4,7 @@ state={
 	name="STATE_365"
 
 	history={
-		owner = USA
+		owner = DST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -15,7 +15,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = DST
 		victory_points = {
 			12384 10 
 		}
@@ -30,7 +30,7 @@ state={
 	}
 
 	provinces={
-		1433 1480 7583 7612 10492 12325 12470 12498 
+		7583 7612 10492 12498 
 	}
 	manpower=2908504
 	buildings_max_level_factor=1.000

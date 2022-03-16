@@ -4,7 +4,7 @@ state={
 	name="STATE_367"
 
 	history={
-		owner = USA
+		owner = DST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -14,7 +14,7 @@ state={
 			}
 
 		}
-		add_core_of = USA
+		add_core_of = DST
 		victory_points = {
 			7480 1 
 		}
@@ -32,7 +32,7 @@ state={
 	}
 
 	provinces={
-		492 860 1587 4622 4756 7422 7480 7640 10192 10520 11509 11942 12735 
+		492 860 7422 11509 12735 
 	}
 	manpower=2646247
 	buildings_max_level_factor=1.000

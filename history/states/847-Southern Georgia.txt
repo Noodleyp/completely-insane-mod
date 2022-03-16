@@ -1,0 +1,14 @@
+state={
+	id=847
+	name="STATE_847"
+	provinces={
+		1433 1480 12325 12470 
+	}
+	manpower=46363
+	history = {
+		owner = FSA
+		add_core_of = FSA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
