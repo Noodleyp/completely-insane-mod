@@ -1,0 +1,14 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		1282 1338 1619 4287 10247 10318 12202 12221 12459 
+	}
+	manpower=43435
+	history = {
+		owner = NEE
+		add_core_of = NEE
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

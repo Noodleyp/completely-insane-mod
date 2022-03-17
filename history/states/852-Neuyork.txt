@@ -1,0 +1,14 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		598 3602 6778 6795 6916 9721 9754 10381 11662 11665 11722 
+	}
+	manpower=43223
+	history = {
+		owner = AMK
+		add_core_of = AMK
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

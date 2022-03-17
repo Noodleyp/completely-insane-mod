@@ -963,3 +963,35 @@ APL = {
 	color = rgb { 11 79 13 }
 	color_ui = rgb { 11 79 13 }
 }
+AFR = {
+	color = rgb { 27 60 130 }
+	color_ui = rgb { 27 60 130 }
+}
+BTA = {
+	color = rgb { 115 32 26 }
+	color_ui = rgb { 115 32 26 }
+}
+AMK = {
+	color = rgb { 115 115 115 }
+	color_ui = rgb { 115 115 115 }
+}
+NEE = {
+	color = rgb { 130 69 69 }
+	color_ui = rgb { 130 69 69 }
+}
+NBA = {
+	color = rgb { 181 101 101 }
+	color_ui = rgb { 181 101 101 }
+}
+GLN = {
+	color = rgb { 56 52 148 }
+	color_ui = rgb { 56 52 148 }
+}
+MWF = {
+	color = rgb { 145 55 55 }
+	color_ui = rgb { 145 55 55 }
+}
+MFA = {
+	color = rgb { 189 85 85 }
+	color_ui = rgb { 145 55 55 }
+}

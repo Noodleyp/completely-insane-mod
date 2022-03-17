@@ -1,0 +1,32 @@
+﻿focus_tree = {
+	id = PRE_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BAY
+		}
+	}
+	default = no
+	
+
+	focus = {
+		id = BAY_DNB
+		icon = GFX_focus_danube
+		x = 10
+		y = 0
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+		
+		}
+	}

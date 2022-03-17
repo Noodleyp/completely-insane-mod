@@ -1,0 +1,14 @@
+state={
+	id=857
+	name="STATE_857"
+	provinces={
+		4740 4811 9802 
+	}
+	manpower=453252
+	history = {
+		owner = LOU
+		add_core_of = LOU
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

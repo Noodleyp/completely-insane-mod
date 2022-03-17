@@ -1,0 +1,15 @@
+
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		702 880 3687 3802 3850 3880 6705 6899 9662 9789 9836 11648 11769 11789 11800 12405 
+	}
+	manpower=235235
+	history = {
+		owner = NBA
+		add_core_of = NBA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
