@@ -1,0 +1,14 @@
+state={
+	id=868
+	name="STATE_868"
+	provinces={
+		941 1432 1601 1651 4657 7667 10387 11763 
+	}
+	history = {
+		owner = NCA
+		add_core_of = NCA
+	}
+	manpower=325235
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

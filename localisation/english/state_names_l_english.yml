@@ -863,3 +863,7 @@
  STATE_862:0 "Rio Grande"
  STATE_863:0 "Outer Deseret"
  STATE_864:0 "South California"
+ STATE_865:0 "North California"
+ STATE_866:0 "San Francisco"
+ STATE_867:0 "Los Angeles"
+ STATE_868:0 "East California"

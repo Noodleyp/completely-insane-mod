@@ -4,7 +4,11 @@ state={
 	provinces={
 		823 1562 4727 7986 12303 12374 
 	}
-	manpower=0
+	manpower=234523
+	history = {
+		owner = KCA
+		add_core_of = KCA
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

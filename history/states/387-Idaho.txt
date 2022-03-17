@@ -9,12 +9,12 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = CSC
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = USA
+		add_core_of = CSC
 		victory_points = {
 			9616 1 
 		}

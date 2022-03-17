@@ -1,0 +1,15 @@
+
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		610 710 766 768 781 3588 3644 4331 6482 6665 6772 9697 9730 10159 11698 
+	}
+	manpower=325235
+	history = {
+		owner = NCA
+		add_core_of = NCA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

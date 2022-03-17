@@ -1,0 +1,14 @@
+state={
+	id=867
+	name="STATE_867"
+	provinces={
+		7517 9814 11757 
+	}
+	manpower=235555
+	history = {
+		owner = SCA
+		add_core_of = SCA
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
