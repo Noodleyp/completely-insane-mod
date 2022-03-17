@@ -1,13 +1,20 @@
+
 state={
 	id=855
 	name="STATE_855"
-	provinces={
-		1352 3708 4757 7834 10676 12513 
-	}
-	manpower=235225
-	history = {
+
+	history={
 		owner = MWF
 		add_core_of = MWF
+		buildings_max_level_factor = 1.000
+		local_supplies = 0.000
+
+	}
+
+	provinces={
+		1352 3708 4757 7834 7852 10676 12513 
+	}
+	manpower=235225
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

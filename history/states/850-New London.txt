@@ -5,6 +5,9 @@
 		9801 9864 11740 11900 
 	}
 	manpower=436346
+	victory_points {
+		9864 25
+	}
 	history = {
 		owner = BTA
 		add_core_of = BTA

@@ -216,7 +216,7 @@ recruit_character = BRI_awt
 		}
 	}
 }
-create_facion = "Midwestern Workers Association"
+create_faction = Midwestern_Freedom_Association
 add_to_faction = MFA
 set_politics = {
 	ruling_party = communism
@@ -225,10 +225,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 0
-	fascism = 75
-	communism = 0
-	neutrality = 25
+	democratic = 8
+	fascism = 0
+	communism = 92
+	neutrality = 0
 }
 
 create_country_leader = {
