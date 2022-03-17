@@ -1,0 +1,14 @@
+state={
+	id=863
+	name="STATE_863"
+	provinces={
+		850 7756 7821 7879 9695 10573 10591 12535 
+	}
+	manpower=532352
+	history = {
+		owner = DSE
+		add_core_of = DSE
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

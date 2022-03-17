@@ -1,0 +1,15 @@
+
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		1736 1851 1854 4741 4838 6742 7688 7779 7888 10672 12561 12633 12651 12676 
+	}
+	manpower=235232
+	history = {
+		owner = RFR
+		add_core_of = RFR
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -8,13 +8,13 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = NVM
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = USA
+		add_core_of = NVM
 		victory_points = {
 			4975 1 
 		}
@@ -22,7 +22,7 @@ state={
 	}
 
 	provinces={
-		1972 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 
+		3867 3883 4975 8070 10642 10867 12684 12720 12791 
 	}
 	manpower=423316
 	buildings_max_level_factor=1.000

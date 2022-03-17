@@ -1,10 +1,11 @@
+
 state={
-	id=858
-	name="STATE_858"
+	id=860
+	name="STATE_860"
 	provinces={
-		1747 1875 3750 4839 6722 7745 7771 7877 12566 
+		1809 1827 3869 7780 11772 12570 12642 
 	}
-	manpower=43634
+	manpower=345353
 	history = {
 		owner = KAM
 		add_core_of = KAM

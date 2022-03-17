@@ -4,13 +4,13 @@ state={
 	name="STATE_384"
 
 	history={
-		owner = USA
+		owner = KAM
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = USA
+		add_core_of = KAM
 		victory_points = {
 			12586 1 
 		}

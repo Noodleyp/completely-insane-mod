@@ -1,0 +1,14 @@
+state={
+	id=862
+	name="STATE_862"
+	provinces={
+		1972 5044 10645 10914 12552 
+	}
+	manpower=235235
+	history = {
+		owner = RGR
+		add_core_of = RGR
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
