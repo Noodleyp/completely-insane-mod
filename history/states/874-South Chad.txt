@@ -1,0 +1,14 @@
+state={
+	id=874
+	name="STATE_874"
+	provinces={
+		1993 13211 
+	}
+	history = {
+		owner = FEA
+		add_core_of = CHA
+	}
+	manpower=235235
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

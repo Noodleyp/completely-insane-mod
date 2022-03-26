@@ -1,0 +1,14 @@
+state={
+	id=871
+	name="STATE_871"
+	provinces={
+		3165 5084 12719 
+	}
+	history = {
+		owner = FEA
+		add_core_of = CAR
+	}
+	manpower=324324
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,112 @@
+﻿add_namespace = lowstability
+
+# Ask SOV about joining Comintern
+country_event = {
+	id = lowstability.1
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		FEA = {
+			stability < 0.3
+		}
+	}
+	hidden = yes
+	fire_only_once = yes
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		FCA = {
+				transfer_state = 772
+				transfer_state = 539
+				transfer_state = 773
+				division_template = {
+					name = "Test"
+					division_names_group = USA_INF_01
+					priority = 0
+					template_counter = 0
+					regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 0 y = 3 }
+						}
+					support = { 
+						military_police = { x = 0 y = 0 }
+					}
+				}
+				change_tag_from = FEA
+				
+            }
+			FEA = {
+					division_template = {
+						name = "Test"
+						division_names_group = USA_INF_01
+						priority = 0
+						template_counter = 0
+						regiments = {
+								infantry = { x = 0 y = 0 }
+								infantry = { x = 0 y = 1 }
+								infantry = { x = 0 y = 2 }
+								infantry = { x = 0 y = 3 }
+							}
+						support = { 
+							military_police = { x = 0 y = 0 }
+						}
+					}
+					declare_war_on	 = {
+							target = FCA
+							type = annex_everything
+						}
+
+				774 = {
+					create_unit = {
+						division = "name = \"Fang Mercenaries\" division_template = \"Test\" start_experience_factor = 0.4"
+						owner = FEA
+						count = 3
+						allow_spawning_on_enemy_provs = yes
+					}
+					capital_scope = {
+						create_unit = {
+							division = "name = \"Fang Mercenaries\" division_template = \"Test\" start_experience_factor = 0.4"
+							owner = FCA
+							count = 3
+							allow_spawning_on_enemy_provs = yes
+						}
+					}
+				}
+			}
+	}
+}
+country_event = {
+	id = lowstability.2
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		FWA = {
+			stability < 0.3
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		release = NGR
+		release = MRT
+		release = MLI
+		release = VOL
+		release = DAH
+		release = TOG
+		release = SEN
+		release = GNA
+		release = IVO
+	}
+}
