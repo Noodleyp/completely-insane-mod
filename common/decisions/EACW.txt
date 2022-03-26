@@ -1,0 +1,79 @@
+EACW = {
+	Dissolve_central_africa = {
+		ai_will_do = {
+			factor = 4000
+		}
+		visible= {
+			original_tag = FCA
+		}
+		available = {
+			FEA = {
+				surrender_progress > 0.5
+			}
+		}
+		fire_only_once = yes
+		available = {
+		}
+		complete_effect = {
+			white_peace = {
+				target = FEA
+			}
+			annex_country = {
+				target = FEA
+			}
+			release = CAR
+			release = CHA
+			release = RCG
+			release = GAB
+			CMR = {
+				change_country_from = FCA
+				annex_country = {
+					target = FCA
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+	Invade_Nigeria = {
+		ai_will_do = {
+			factor = 4000
+		}
+		visible= {
+			original_tag = CMR
+		}
+		available = {
+			
+		}
+		fire_only_once = yes
+		available = {
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = NGA
+			}
+		}
+	}
+	PEACE_Nigeria = {
+		ai_will_do = {
+			factor = 4000
+		}
+		visible= {
+			original_tag = CMR
+		}
+		available = {
+			NGA = {
+				surrender_progress > 0.5
+			}
+		}
+		fire_only_once = yes
+		complete_effect = {
+			white_peace  = {
+				tag = NGA
+			}
+			transfer_state = 869
+			870 = {
+				set_demilitarized_zone = yes
+			}
+		}
+	}
+}

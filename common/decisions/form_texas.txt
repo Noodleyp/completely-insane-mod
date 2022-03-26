@@ -1,0 +1,243 @@
+form_texas_category = {
+ CTX_form_texas = {
+		ai_will_do = {
+			factor = 4000
+		}
+		visible= {
+			original_tag = CTX
+		}
+		fire_only_once = yes
+		available = {
+			owns_state = 840
+			owns_state = 842
+			owns_state = 375
+			owns_state = 839
+		}
+		complete_effect = {
+			set_cosmetic_tag = CTX_unified	
+			every_state = {
+				limit = {
+					is_owned_by = CTX
+				}
+				add_core_of = CTX
+			}
+			
+		}
+	}
+	CTX_seize_north_texas = {
+		ai_will_do = {
+			factor = 4000
+		}
+		visible = {
+			original_tag = CTX
+			has_cosmetic_tag = CTX_unified
+		}
+		fire_only_once = yes
+		complete_effect = {
+			random_list = {
+				3 = {
+					transfer_state = 841
+				}
+				7 = {
+					create_wargoal = {
+						type = take_state_focus
+						target = OKL
+						generator = { 841 }
+					}
+				}
+			}
+		}
+	}
+	CTX_seize_east_texas = {
+		ai_will_do = {
+			factor = 4000
+		}
+		fire_only_once = yes
+		visible = {
+			original_tag = CTX
+			has_cosmetic_tag = CTX_unified
+			owns_state = 841
+		}
+		complete_effect = {
+			random_list = {
+				6 = {
+					transfer_state = 835
+				}
+				4 = {
+					create_wargoal = {
+						type = take_state_focus
+						target = LOU
+						generator = { 835 }
+					}
+				}
+			}
+		}
+	}
+	CTX_peace_oklahoma_loss = {
+		ai_will_do = {
+			factor = 4000
+		}
+		fire_only_once = yes
+		visible = {
+			original_tag = CTX
+			has_cosmetic_tag = CTX_unified
+			surrender_progress > 0.1
+			has_war_with = OKL
+		}
+		complete_effect = {
+			white_peace = {
+				tag = OKL
+			}
+		}
+	}
+	CTX_peace_louisiana_mega_loss = {
+		ai_will_do = {
+			factor = 4000
+		}
+		fire_only_once = yes
+		visible = {
+			original_tag = CTX
+			has_cosmetic_tag = CTX_unified
+			has_war_with = LOU
+			surrender_progress > 0.3
+		}
+		complete_effect = {
+			white_peace = {
+				tag = LOU
+			}
+			839 = {
+				set_demilitarized_zone = yes
+			}
+			RTX = {
+				transfer_state = 839
+				transfer_state = 375
+				transfer_state = 840
+				transfer_state = 842
+			}
+			OKL = {
+				transfer_state = 841
+			}	
+		}
+	}
+	CTX_peace_louisiana_win = {
+		ai_will_do = {
+			factor = 4000
+		}
+		fire_only_once = yes
+		visible = {
+			original_tag = CTX
+			has_war_with = LOU
+			has_cosmetic_tag = CTX_unified
+		}
+		available = {
+			LOU = {
+				surrender_progress > 0.5
+			}
+		}
+		complete_effect = {
+			white_peace = {
+				tag = LOU
+			}
+			372 = {
+				set_demilitarized_zone = yes
+			}
+			CTX = {
+				transfer_state = 835
+				set_country_flag = LOU_DEFEATED
+			}
+			OKL = {
+				transfer_state = 374
+				set_capital = {
+					state = 374
+					remember_old_capital = no
+				}
+			}
+			KAM = {
+				transfer_state = 857
+			}
+		}
+	}
+	CTX_peace_oklahoma_win = {
+		ai_will_do = {
+			factor = 4000
+		}
+		fire_only_once = yes
+		visible = {
+			original_tag = CTX
+			has_war_with = OKL
+			has_cosmetic_tag = CTX_unified
+		}
+		available = {
+			OKL = {
+				surrender_progress > 0.5
+			}
+		}
+		complete_effect = {
+			white_peace = {
+				tag = OKL
+			}
+			CTX = {
+				transfer_state = 841
+				puppet = OKL
+			}
+			OKL = {
+				set_cosmetic_tag = CTX_OKL
+			}
+		}
+	}
+	CTX_NMXCQ = {
+		ai_will_do = {
+			factor = 4000
+		}
+		fire_only_once = yes
+		visible = {
+			original_tag = CTX
+			has_cosmetic_tag = CTX_unified
+			owns_state = 835
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = NVM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RGR
+				type = annex_everything
+			}
+			NVM = {
+				create_faction = "New Mexican League"
+				add_to_faction = RGR
+			}
+		}
+	}
+	CTX_REORGNM = {
+		ai_will_do = {
+			factor = 4000
+		}
+		fire_only_once = yes
+		visible = {
+			original_tag = CTX
+			has_cosmetic_tag = CTX_unified
+			has_war_with = NVM
+			has_war_with = RGR
+		}
+		available = {
+			NVM = {
+				surrender_progress > 0.7
+			}
+		}
+		complete_effect = {
+			white_peace = {
+				tag = NVM
+			}
+			CTX = {
+				puppet = NVM
+			}
+			NVM = {
+				transfer_state = 862
+				transfer_state = 843
+				set_cosmetic_tag = CTX_NVM
+			}
+		}
+	}
+}

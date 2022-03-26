@@ -1,6 +1,6 @@
 ﻿capital = 839
 
-#oob = ""
+oob = "RTX_1936"
 
 set_research_slots = 3
 # Starting tech
@@ -215,17 +215,25 @@ recruit_character = BRI_awt
 		}
 	}
 }
+declare_war_on = {
+	target = CTX #tag
+	type = annex_everything #cb
+}
+declare_war_on = {
+	target = NTX #tag
+	type = annex_everything #cb
+}
 set_politics = {
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 0
-	fascism = 75
+	democratic = 75
+	fascism = 15
 	communism = 0
-	neutrality = 25
+	neutrality = 10
 }
 
 create_country_leader = {

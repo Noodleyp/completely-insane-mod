@@ -1,0 +1,26 @@
+GENERIC_US = {
+	GLN_WAR = {
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 4000
+				date = > 1938.1.1
+			}
+		}
+		visible= {
+			original_tag = GLN
+		}
+		available = {
+			original_tag = GLN
+		}
+		fire_only_once = yes
+		available = {
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = MWF
+				type = annex_everything
+			}
+		}
+	}
+}

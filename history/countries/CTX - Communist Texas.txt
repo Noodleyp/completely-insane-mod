@@ -1,6 +1,6 @@
 ﻿capital = 842
 
-#oob = ""
+oob = "CTX_1936"
 
 set_research_slots = 3
 # Starting tech
@@ -226,6 +226,14 @@ set_popularities = {
 	fascism = 75
 	communism = 0
 	neutrality = 25
+}
+declare_war_on = {
+	target = RTX #tag
+	type = civil_war #cb
+}
+declare_war_on = {
+	target = NTX #tag
+	type = civil_war #cb
 }
 
 create_country_leader = {

@@ -1,0 +1,543 @@
+﻿add_namespace = renames
+
+# Ask SOV about joining Comintern
+country_event = {
+	id = renames.1
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		NGA = {
+			owns_state = 869
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		869 = {
+			set_state_name = "East Nigeria"
+		}
+	}
+}
+country_event = {
+	id = renames.2
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		CMR = {
+			owns_state = 869
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		869 = {
+			set_state_name = "West Cameroon"
+		}
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+country_event = {
+	id = renames.3
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		PRE = {
+			owns_state = 763
+			has_government = fascism
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		763 = {
+			set_state_name = "Himmlerstadt"
+		}
+		set_province_name = { 
+			id = 6332
+			name = "Himmlerstadt"
+		}
+		hidden_effect = {
+			
+		}
+	}
+}
+country_event = {
+	id = renames.4
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		owns_state = 763
+		NOT = {
+			has_government = fascism
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		763 = {
+			set_state_name = "Königsberg"
+		}
+		set_province_name = { 
+			id = 6332
+			name = "Königsberg"
+		}
+		hidden_effect = {
+			
+		}
+	}
+}
+country_event = {
+	id = renames.5
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		POL = {
+			owns_state = 5
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		5 = {
+			set_state_name = "Warmia-Masuria"
+		}
+		set_province_name = { 
+			id = 6375
+			name = "Olsztyn"
+		}
+		hidden_effect = {
+			
+		}
+	}
+}
+country_event = {
+	id = renames.6
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		POL = {
+			owns_state = 63
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		63 = {
+			set_state_name = "Pomerania"
+		}
+		set_province_name = { 
+			id = 6282
+			name = "Szczecin"
+		}
+		set_province_name = { 
+			id = 11372
+			name = "Koszalin"
+		}
+		hidden_effect = {
+			
+		}
+	}
+}
+country_event = {
+	id = renames.7
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		POL = {
+			owns_state = 86
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		86 = {
+			reset_state_name = yes
+		}
+		reset_province_name = 6558
+		hidden_effect = {
+			
+		}
+	}
+}
+country_event = {
+	id = renames.8
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		POL = {
+			owns_state = 807
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		807 = {
+			reset_state_name = yes
+		}
+		reset_province_name = 3295
+		reset_province_name = 279
+		reset_province_name = 9263
+		hidden_effect = {
+			
+		}
+	}
+}
+country_event = {
+	id = renames.9
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		PRE = {
+			owns_state = 86
+			owns_state = 807
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		86 = {
+			set_state_name = "Posen"
+		}
+		807 = {
+			set_state_name = "Westpreußen"
+		}
+		85 = {
+			set_state_name = "Danzig"
+			set_demilitarized_zone = no
+		}
+		762 = {
+			set_state_name = "Kattowitz"
+		}
+		set_province_name = {
+			id = 6558
+			name = "Posen"
+		}
+		set_province_name = {
+			id = 279
+			name = "Bromberg"
+		}
+		set_province_name = {
+			id = 3295
+			name = "Thorn"
+		}
+		set_province_name = {
+			id = 9623
+			name = "Gdingen"
+		}
+		set_province_name = {
+			id = 362
+			name = "Danzig"
+		}
+		set_province_name = {
+			id = 6464
+			name = "Kattowitz"
+		}
+	}
+}
+country_event = {
+	id = renames.10
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		POL = {
+			owns_state = 763
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		763 = {
+			set_state_name = "Królewiec"
+		}
+		set_province_name = {
+			id = 6332
+			name = "Królewiec"
+		}
+	}
+}
+country_event = {
+	id = renames.11
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		POL = {
+			owns_state = 68	
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		68 = {
+			set_state_name = "Lubusz"
+		}
+		set_province_name = {
+			id = 3473
+			name = "Kostrzyn nad Odrą"
+		}
+	}
+}
+country_event = {
+	id = renames.12
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		POL = {
+			owns_state = 66
+			owns_state = 67
+			owns_state = 762
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		66 = {
+			set_state_name = "Dolnośląskie"
+		}
+		67 = {
+			set_state_name = "Sląskie"
+		}
+		762 = {
+			set_state_name = "Katowice"
+		}
+		set_province_name = {
+			id = 9570
+			name = "Wroclaw"
+		}
+		set_province_name = {
+			id = 9511
+			name = "Opole"
+		}
+		set_province_name = {
+			id = 11467
+			name = "Gliwice"
+		}
+		set_province_name = {
+			id = 6464
+			name = "Katowice"
+		}
+	}
+}
+country_event = {
+	id = renames.13
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		870 = {
+			is_demilitarized_zone = yes
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		870 = {
+			set_state_name = "Nigerian Demarcation Zone"
+		}
+	}
+}
+country_event = {
+	id = renames.14
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		NGA = {
+			owns_state = 870
+		}
+		870 = {
+			is_demilitarized_zone = no
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		870 = {
+			set_state_name = "Central Nigeria"
+		}
+	}
+}
+country_event = {
+	id = renames.15	
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		CMR = {
+			owns_state = 870
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		870 = {
+			set_state_name = "Cameroonian Frontier"
+		}
+	}
+}
+country_event = {
+	id = renames.16
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		FEA = {
+			owns_state = 869
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		869 = {
+			set_state_name = "Ouest-Cameroun"
+		}
+	}
+}
+country_event = {
+	id = renames.17
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		PRE = {
+			owns_state = 5
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		5 = {
+			reset_state_name = yes
+		}
+		reset_province_name = 6375
+	}
+}
+country_event = {
+	id = renames.18
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		PRE = {
+			owns_state = 66
+			owns_state = 67
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		66 = {
+			reset_state_name = yes
+		}
+		67 = {
+			reset_state_name = yes
+		}
+		reset_province_name = 9511
+		reset_province_name = 9570
+		reset_province_name = 11467
+	}
+}

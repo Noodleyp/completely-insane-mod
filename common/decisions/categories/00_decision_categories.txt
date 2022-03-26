@@ -18,12 +18,44 @@ form_france_category = {
 
 	}
 }
+form_texas_category = {
+	icon = generic_propaganda
+
+	visible = {
+
+	}
+}
 PRE_commisariats = {
 	icon = generic_propaganda
 
 	visible = {
 	original_tag = PRE
 	has_government = fascism
+	}
+}
+PRE_commisariats = {
+	icon = generic_propaganda
+
+	visible = {
+	original_tag = PRE
+	has_government = fascism
+	}
+}
+GENERIC_US = {
+	icon = generic_propaganda
+
+	visible = {
+	
+	}
+}
+EACW = {
+	icon = generic_propaganda
+
+	visible = {
+		OR = {
+			original_tag = FCA
+			original_tag = CMR
+		}
 	}
 }
 MTG_naval_treaties = {
