@@ -478,6 +478,10 @@ spriteTypes = {
 		name = "GFX_ideology_anarchism"
 		texturefile = "gfx/interface/ideologies/anarchism.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_nationalism_group"
+		texturefile = "gfx/interface/ideologies/nationalism_group.dds"
+	}
 
 	spriteType = {
 		name = "GFX_ideology_anarchist_communism"

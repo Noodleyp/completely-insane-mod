@@ -121,7 +121,7 @@ country_event = {
 		}
 	}
 	hidden = yes
-	
+	fire_only_once = yes
 	
 	option = {
 		name = czech.1.a #yes
@@ -137,6 +137,7 @@ country_event = {
 				target = TNS
 				type = annex_everything
 			}
+			goto_province = 12501
 		}
 	}
 }

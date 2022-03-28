@@ -30,7 +30,7 @@ EACW = {
 					target = FCA
 					transfer_troops = yes
 				}
-				change_country_from = FCA
+				change_tag_from = FCA
 			}
 		}
 	}
