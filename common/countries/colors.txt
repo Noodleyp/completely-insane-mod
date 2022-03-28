@@ -1043,3 +1043,7 @@ NEV = {
 	color = rgb { 19 99 26 }
 	color_ui = rgb { 19 99 26 }
 }
+TNS = {
+	color = rgb { 63 138 83 }
+	color_ui = rgb { 63 138 83 }
+}

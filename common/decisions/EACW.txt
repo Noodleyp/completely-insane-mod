@@ -26,11 +26,11 @@ EACW = {
 			release = RCG
 			release = GAB
 			CMR = {
-				change_country_from = FCA
 				annex_country = {
 					target = FCA
 					transfer_troops = yes
 				}
+				change_country_from = FCA
 			}
 		}
 	}

@@ -110,3 +110,33 @@ country_event = {
 		release = IVO
 	}
 }
+country_event = {
+	id = lowstability.3
+	title = czech.1.t
+	desc = czech.1.d
+	picture = GFX_report_event_hitler_handshake
+	trigger = {
+		CRL = {
+			stability < 0.3
+		}
+	}
+	hidden = yes
+	
+	
+	option = {
+		name = czech.1.a #yes
+		ai_chance = {
+			factor = 80
+		}
+		TNS = {
+			transfer_state = 368
+			load_oob = TNS_REV
+		}
+		CRL = {
+			declare_war_on = {
+				target = TNS
+				type = annex_everything
+			}
+		}
+	}
+}
