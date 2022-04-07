@@ -74,8 +74,12 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 125 31 31 }
+	color_ui = rgb { 77 8 8 }
+}
+TRK = {
+	color = rgb { 155 61 61 }
+	color_ui = rgb { 77 8 8 }
 }
 GRE = {
 	color = rgb { 93 181 227 }
@@ -1046,4 +1050,8 @@ NEV = {
 TNS = {
 	color = rgb { 63 138 83 }
 	color_ui = rgb { 63 138 83 }
+}
+NVG = {
+	color = rgb { 38 117 50 }
+	color_ui = rgb { 38 117 50 }
 }

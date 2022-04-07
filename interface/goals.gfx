@@ -2980,5 +2980,9 @@ spriteTypes = {
 		name = "GFX_focus_danube"
 		texturefile = "gfx/interface/goals/focus_danube.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_anatolia"
+		texturefile = "gfx/interface/goals/focus_anatolia.dds"
+	}
 
 }

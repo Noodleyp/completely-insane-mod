@@ -5,12 +5,13 @@
 		9801 9864 11740 11900 
 	}
 	manpower=436346
-	victory_points {
-		9864 25
-	}
+	
 	history = {
 		owner = BTA
 		add_core_of = BTA
+		victory_points {
+			9864 25
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

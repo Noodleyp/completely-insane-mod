@@ -79,6 +79,10 @@ ideologies = {
 			
 			anarchist_communism = {
 			}
+			
+			pansocialism = {
+			
+			}
 		}
 		
 		dynamic_faction_names = {

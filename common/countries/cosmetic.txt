@@ -884,3 +884,7 @@ CTX_NVM = {
 	color = rgb { 179 20 36 }
 	color_ui = rgb { 179 20 36 }
 }
+CMR_AFR = {
+	color = rgb { 38 117 50 }
+	color_ui = rgb { 38 117 50 }
+}
