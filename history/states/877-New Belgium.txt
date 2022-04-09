@@ -1,0 +1,14 @@
+state={
+	id=877
+	name="STATE_877"
+	provinces={
+		3476 6504 9500 
+	}
+	history = {
+		owner = BRG
+		add_core_of = BRG
+	}
+	manpower=325232
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

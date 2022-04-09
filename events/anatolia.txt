@@ -1,0 +1,70 @@
+﻿add_namespace = anatolia
+
+# Elections
+country_event = {
+	id = anatolia.1
+	title = anatolia.1.t
+	desc = anatolia.1.d
+	picture = GFX_report_event_hitler_handshake
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	
+	option = {
+		name = anatolia.1.a #military
+		ai_chance = {
+			factor = 80
+		}
+		create_country_leader = {
+			name = "Turkish Military"
+			desc = "POLITICS_PETER_II_DESC"
+			picture = "gfx/leaders/TUR/TURMIL.dds"
+			expire = "1965.1.1"
+			ideology = militarism
+			traits = { }
+		}
+		set_politics = {
+			ruling_party = nationalism
+			elections_allowed = no
+		}
+		set_cosmetic_tag = MIL_TUR
+	}
+	option = {
+		name = anatolia.1.b #commies
+		ai_chance = {
+			factor = 80
+		}
+		create_country_leader = {
+			name = "Turkish Councils"
+			desc = "POLITICS_PETER_II_DESC"
+			picture = "gfx/leaders/TUR/Commies.dds"
+			expire = "1965.1.1"
+			ideology = pansocialism
+			traits = { }
+		}
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+		set_cosmetic_tag = COM_TUR
+	}
+	option = {
+		name = anatolia.1.c #notfascists
+		ai_chance = {
+			factor = 80
+		}
+		create_country_leader = {
+			name = "Nihal Atsiz"
+			desc = "POLITICS_PETER_II_DESC"
+			picture = "gfx/leaders/TUR/turkishnaziguy.dds"
+			expire = "1965.1.1"
+			ideology = ultranationalism
+			traits = { }
+		}
+		set_politics = {
+			ruling_party = nationalism
+			elections_allowed = no
+		}
+		set_cosmetic_tag = NAT_TUR
+	}
+}

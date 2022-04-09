@@ -1,0 +1,18 @@
+
+state={
+	id=876
+	name="STATE_876"
+
+	history={
+		owner = BRG
+		add_core_of = BRG
+
+	}
+
+	provinces={
+		3560 5291 9472 
+	}
+	manpower=3242332
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

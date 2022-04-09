@@ -888,3 +888,7 @@ CMR_AFR = {
 	color = rgb { 38 117 50 }
 	color_ui = rgb { 38 117 50 }
 }
+NAT_TUR = {
+	color = rgb { 99 43 43 }
+	color_ui = rgb { 99 43 43 }
+}

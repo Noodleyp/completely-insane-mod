@@ -1,0 +1,177 @@
+focus_tree = {
+	id = turkish_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 100 y = 3250 }
+
+	initial_show_position = {
+		x = 20
+		y = 0
+	}
+
+	focus = {
+		id = TUR_AnatolianRemnants
+		icon = GFX_focus_anatolia
+		available = {
+			TUR = { is_puppet = no }
+		}
+		x = 5
+		y = 0
+		cost = 3
+		ai_will_do = {
+			base = 10
+		}
+
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = TUR_THEELECTION
+		icon = GFX_focus_elections
+		available = {
+			TUR = { is_puppet = no }
+		}
+		x = 5
+		y = 1
+		cost = 3
+		ai_will_do = {
+			base = 10
+		}
+		prerequisite = {
+			focus = TUR_AnatolianRemnants
+		}
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			country_event = {
+				id = anatolia.1
+			}
+		}
+	}
+	focus = {
+		id = TUR_NATIONALISTS
+		icon = GFX_TBA
+		available = {
+			TUR = { is_puppet = no }
+		}
+		x = 8
+		y = 2
+		cost = 3
+		ai_will_do = {
+			base = 10
+		}
+		prerequisite = {
+			focus = TUR_THEELECTION
+		}
+		bypass = {
+			
+		}
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = TUR_REUNIFY
+		x = 8
+		y = 3
+		cost = 3
+		ai_will_do = {
+			base = 10
+		}
+		prerequisite = {
+			focus = TUR_NATIONALISTS
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_wargoal = {
+				type = civil_war
+				target = TRK
+			}	
+		}
+	}
+	focus = {
+		id = TUR_StrikeGreece
+		x = 8
+		y = 4
+		cost = 3
+		ai_will_do = {
+			base = 10
+		}
+		prerequisite = {
+			focus = TUR_REUNIFY
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = GRE
+			}	
+			ROM = {
+				diplomatic_relation = {
+					country = GRE
+					relation = guarantee
+					active = no
+				}
+			}
+		}
+	}
+	focus = {
+		id = TUR_DEALWITHARMENIA
+		x = 8
+		y = 5
+		cost = 3
+		ai_will_do = {
+			base = 10
+		}
+		prerequisite = {
+			focus = TUR_StrikeGreece
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = ARM
+			}	
+		}
+	}
+	focus = {
+		id = TUR_DEALWITHTHEKURDS
+		x = 8
+		y = 6
+		cost = 3
+		ai_will_do = {
+			base = 10
+		}
+		prerequisite = {
+			focus = TUR_DEALWITHARMENIA
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = KUR
+			}	
+		}
+	}
+}

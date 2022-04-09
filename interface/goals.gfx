@@ -2984,5 +2984,9 @@ spriteTypes = {
 		name = "GFX_focus_anatolia"
 		texturefile = "gfx/interface/goals/focus_anatolia.dds"
 	}
+	SpriteType = { 
+		name = "GFX_focus_elections"
+		texturefile = "gfx/interface/goals/focus_elections.dds"
+	}
 
 }
